@@ -1,0 +1,13 @@
+.products-listing-wrapper{
+    width: 100%;
+}
+.products-listing{
+    display: flex;
+    height: 100%;
+    flex-wrap: wrap;
+    margin: 0px -15px;
+    justify-content: center;
+}
+@media (max-width:1200px){
+    
+}

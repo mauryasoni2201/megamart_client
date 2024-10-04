@@ -1,0 +1,22 @@
+.error{
+    padding: 30px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:20px;
+}
+.error p{
+    font-size: 20px;
+    font-weight: 400;
+}
+.error button{
+    cursor: pointer;
+    padding: 10px 20px;
+    color: white;
+    font-size: 16px;
+    font-family: 300;
+    background-color: black;
+    border: none;
+    border-radius: 10px;
+}

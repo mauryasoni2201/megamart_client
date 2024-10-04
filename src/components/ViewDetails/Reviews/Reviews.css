@@ -1,0 +1,71 @@
+.reviews{
+    padding: 30px 0px;
+}
+.reviews-title h2{
+    text-align: center;
+}
+.review-card-main{
+    padding:30px 0px;
+    display: flex;
+    margin: 0px -15px;
+    height: 100%;
+}
+.review-card-wrapper{
+    width: 33%;
+    padding:0px 15px;
+}
+.review-card{
+    background-color:#f4f5f7;
+    display: flex;
+    padding:15px;
+    border-radius: 10px;
+    flex-direction: column;
+    gap:10px;
+    height: 100%;
+}
+.reviewer-name h3{
+    font-size:20px;
+    line-height: 24px;
+    font-weight: 600;
+}
+.reviewer-email h4{
+    font-size: 18px;
+    line-height: 22px;
+    font-weight: 500;
+}
+.reviewer-comment p,.review-date{
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 400;
+}
+@media(max-width:1100px){
+    .review-card-main{
+        justify-content: center;
+        flex-wrap: wrap;
+        row-gap: 20px;
+    }
+    .review-card-wrapper{
+        width: 50%;
+    }
+}
+@media(max-width:767px){
+    .reviews,.review-card-main{
+        padding-top: 20px;
+        padding-bottom:0px;
+    }
+    .review-card-wrapper{
+        width: 100%;
+    }
+    .reviewer-name h3{
+        font-size:18px;
+        line-height:22px;
+    }
+    .reviewer-email h4{
+        font-size: 15px;
+        line-height: 19px;
+    }
+    .reviewer-comment p,.review-date{
+        font-size: 14px;
+        line-height:18px;
+    }
+}

@@ -1,0 +1,41 @@
+.order-item{
+    margin: 0px 15px;
+    padding:10px 20px;
+    width: 100%;
+    background-color:#f4f5f7;
+    border-radius:6px;
+    margin-bottom: 15px;
+}
+.order-details{
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+}
+.order-allDetails{
+    display: flex;
+    column-gap: 10px;
+}
+.order-options{
+    display: flex;
+    justify-content: space-between;
+}
+.order-options h6{
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 28px;
+}
+.order-name h3{
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 22px;
+}
+.order-price h4{
+   font-size: 16px;
+   font-weight: 500;
+   line-height: 22px;
+}
+.order-quantity h5{
+   font-size: 16px;
+   font-weight: 400;
+   line-height: 19.36px;
+}
